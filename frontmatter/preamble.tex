@@ -3,9 +3,6 @@
 %% specifically needed for your thesis.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% This is to create placeholder text and shouldn't be in your thesis
-\usepackage{lipsum}
-
 %% Uncomment this if you want to see all of the margins to see where
 %% content is going outside of margins
 %\usepackage{showframe}
@@ -17,12 +14,12 @@
 %% This code creates groups in the nomenclature
 %% based on Overleaf documentation
 %% https://www.overleaf.com/learn/latex/Nomenclatures
-\makenomenclature
-\usepackage{etoolbox}
-\renewcommand\nomgroup[1]{%
-    \item[%
-        \ifstrequal{#1}{P}{Physics Constants}{%
-        \ifstrequal{#1}{N}{Number Sets}{%
-        \ifstrequal{#1}{O}{Other Symbols}{}}}%
-    ]\bigskip
-}
+% \makenomenclature
+% \usepackage{etoolbox}
+% \renewcommand\nomgroup[1]{%
+%     \item[%
+%         \ifstrequal{#1}{P}{Physics Constants}{%
+%         \ifstrequal{#1}{N}{Number Sets}{%
+%         \ifstrequal{#1}{O}{Other Symbols}{}}}%
+%     ]\bigskip
+% }

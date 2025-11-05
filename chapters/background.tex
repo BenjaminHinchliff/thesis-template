@@ -1,0 +1,36 @@
+\chapter{Background} \label{sec:background}
+
+Our work builds on a variety of prior work both by NASA in relation to the Mars
+data used, and on exsiting cross-view pipelines on earth. However, due to large
+differences in the available data, most existing pipelines are not a drop-in
+solution.
+
+\section{The Perseverance (M2020) Rover}
+
+The Mars 2020 mission is the most recent rover mission to Mars, deploying the
+Perseverance rover. The Perseverance rover is structurally very similar to the
+more well-known Curiosity rover, of the Mars Science Labratory (MSL) mission. It
+was launched for the purposes of broadening the knowledge of the Martian
+surface and to explore the Jezero crater region. It also has hardware to collect
+samples within the rover and in dead drops for the purposes of eventually being
+returned to earth with the Mars Sample Return (MSR/SRL) mission, or with a
+future mission.
+
+The Perseverance rover makes a number of changes to the sensor suite included on
+the rover. Relavent to this work, both the resolution and bit depth of the
+primary navigation cameras on the mast of the rover (Navcam) were upgraded,
+having a 1600x1200 pixel resolution ($\sim$2 megapixels) and being in full color
+\cite{M2020_Willford2018}. This is in constrast to the Curiosity rover, which has
+1024x1024 pixel resolution with only black and white \cite{MSLNavcam_Maki2012}.
+This has the impact that the data processing pipeline used by this work, as well
+as the machine learning portion, does not generalize between the two missions.
+As such, the newer and higher-quality Perseverance rover imagery has been chosen
+for usage in this work.
+
+\section{HiRISE}
+
+
+
+\section{Diffusion Models}
+
+\section{ControlNet}
